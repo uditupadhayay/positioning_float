@@ -58,6 +58,7 @@ header
   box-sizing: border-box;
   z-index: 1;
   border-bottom: 1px solid rgb(204, 204, 204);
+	background-color: #ffffff;
 }
 
 header div
@@ -254,4 +255,106 @@ footer
 .related-content-article-link p, .related-content-paid-aricle p
 {
 	vertical-align: top;
+}
+
+.main-content > p:first-of-type
+{
+	padding: 20px 0;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+.main-content
+{
+	padding: 0 105px 0 110px;
+}
+
+a.category
+{
+	font-family: arial,helvetica,sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+a.category:hover
+{
+	text-decoration: underline;
+}
+
+h3.category
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.headline
+{
+	font-size: 34px;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	padding-bottom: 15px;
+	border-bottom:  1px solid #cecece;
+	font-family: arial,helvetica,sans-serif;
+}
+
+.author-info
+{
+	font-size: 11px;
+	font-weight: 600;
+	font-family: arial,helvetica,sans-serif;
+	margin: 20px 0 30px;
+}
+
+.author-name
+{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.post-date
+{
+	font-weight: 300;
+}
+
+figcaption
+{
+	color: #666;
+	margin-top: 10px;
+	display: inline-block;
+	width: 500px;
+	line-height: 1.3em;
+	font-size: 14px;
+}
+
+.photographer
+{
+	font-size: 11px;
+	color: #999;
+}
+
+.content-wrapper p{
+	padding: 0 20px 30px 40px;
+}
+
+.content-wrapper h3
+{
+	padding: 0 40px;
+}
+.content-wrapper:last-of-type
+{
+	border-bottom:  1px solid #cecece;
+}
+
+.content-wrapper
+{
+	width: 600px;
+	float: left;
+}
+
+.suggested-content, .related-theory
+{
+	clear: both;
 }
