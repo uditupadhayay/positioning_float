@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Styling starts here*/
+header
+{
+  position: fixed;
+  top: 0;
+  left: 20px;
+  width: 98%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  z-index: 1;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+header div
+{
+  display: inline-block;
+}
+
+.header-left-button
+{
+  padding: 10px 10px 10px 30px;
+  font-size: 11px;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header-left-button:hover
+{
+  background-color: #f7f7f5;
+  cursor: pointer;
+}
+
+.header-right-button
+{
+  padding: 7px 10px;
+  background-color: #6288A5;
+  border: 1px solid rgb(77, 123, 159);
+  float: right;
+  border-radius: 3px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 11px;
+  font-family: 'Helvetica Neue',Arial,sans-serif;
+  font-weight: bold;
+}
+
+.header-right-button:hover
+{
+  background-color: #326891;
+  border: 1px solid rgb(38, 94, 139);
+  cursor: pointer;
+}
+
+#setting
+{
+  float: right;
+  background-image: url('images/settingicon.png');
+  background-repeat: none;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+#setting:hover
+{
+  background-image: ('images/settingicon1.png');
+    cursor: pointer;
+}
+
+header img
+{
+  position: absolute;
+  left: 520px
+}
+
+#home-button
+{
+  background-image: url('images/homeicon.png');
+  background-repeat: no-repeat;
+  background-position: 10px 5px;
+}
+
+#search-button
+{
+  background-image: url('images/searchicon.png');
+  background-repeat: no-repeat;
+  background-position: 10px 5px;
+}
+
+#home-button:hover
+{
+  background-image: url('images/homeicon1_img.png');
+  /*Dirty cleanup as background image size differs */
+  background-position: 10px 3px;
+  cursor: pointer;
+}
+
+#search-button:
+{
+  background-image: url('images/searchicon1_img.png')
+  /*Dirty cleanup as background image size differs */
+  background-position: 10px 4px;
+  cursor: pointer;
+}
+
+#section-button
+{
+  position: relative;
+  left: -10px;
+  background-image: url('images/menuicon_img.png');
+  background-repeat: no-repeat;
+  background-position: 10px 5px;
+  border: 1px solid #cecece;
+  border-radius: 3px;
+  z-index: 2;
+  box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06),inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+}
+
+#section-button:hover
+{
+  background-image: url('images/menuicon1_img.png');
+  /*Dirty cleanup as background image size differs */
+  background-position: 10px 4px;
+  cursor: pointer;
+}
+
+.content
+{
+  position: relative;
+  top: 55px;
+}
+
+footer
+{
+  position: relative;
+  top: 55px;
+}
