@@ -336,25 +336,224 @@ figcaption
 }
 
 .content-wrapper p{
-	padding: 0 20px 30px 40px;
+	padding: 0 20px 20px 40px;
 }
 
 .content-wrapper h3
 {
 	padding: 0 40px;
 }
-.content-wrapper:last-of-type
-{
-	border-bottom:  1px solid #cecece;
-}
 
 .content-wrapper
 {
 	width: 600px;
 	float: left;
+	clear: left;
 }
 
 .suggested-content, .related-theory
 {
 	clear: both;
+}
+
+.main-content-aside
+{
+	clear: left;
+	float: right;
+	margin-left: 20px;
+	width: 360px;
+}
+
+.related-theory
+{
+	width: 940px;
+	border-bottom:  1px solid #cecece;
+	box-sizing: border-box;
+	font-size: 14px;
+	line-height: 1.4em;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+.term-explanation
+{
+	width: 224px;
+	height: 320px;
+	margin-left: 10px;
+	float: left;
+	display: inline-block;
+}
+
+.theory-author
+{
+	clear: both;
+	margin-bottom: 10px;
+	font-size: 11px;
+	color: #999;
+}
+
+.term-name
+{
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	margin-right: 10px;
+}
+
+.related-theory h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 12px;
+}
+
+.content-wrapper > p, .content-wrapper > h3
+{
+	font-size: 17px;
+	line-height: 26px;
+	color: #333;
+}
+
+.content-wrapper > h3
+{
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.main-content figcaption
+{
+	margin-bottom: 20px;
+}
+.article-info, .article-info a
+{
+	font-size: 11px;
+	color: #999;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.article-info a:hover
+{
+	text-decoration: underline;
+}
+
+.single-comment
+{
+	color: #666;
+	font-size: 13px;
+	line-height: 1.3em;
+	padding-bottom: 15px;
+}
+
+.comments
+{
+	cursor: pointer;
+}
+
+.comment-date
+{
+	color: #999;
+	font-size: 11px;
+}
+
+.single-comment:last-of-type
+{
+	border-bottom: 1px solid #cecece;
+}
+
+.single-comment:first-of-type
+{
+	margin-top: 15px;
+}
+
+.commenter-name
+{
+	font-weight: bold;
+	color: #000000;
+	margin-right: 10px;
+}
+
+.comments a {
+	color: #326891;
+	text-decoration: none;
+	font-size: 10px;
+	padding-top: 5px;
+	text-transform: uppercase;
+}
+
+.comments  a:hover
+{
+
+	text-decoration: underline;
+}
+
+.comments p:first-of-type
+{
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #328691;
+}
+
+.comments img{
+	vertical-align: text-top;
+}
+
+.from-our-advertisers h4
+{
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	color: #328691;
+}
+
+.single-add-article img{
+	float: left;
+	margin-right: 10px;
+}
+
+.single-add-article
+{
+	clear: both;
+	height: 66px;
+	padding-bottom: 15px;
+	width: 300px;
+	height: 66px;
+}
+
+.single-add-article:hover
+{
+	cursor: pointer;
+}
+
+.single-add-article:last-of-type
+{
+	border-bottom: 1px solid #cecece;
+}
+
+
+.advertiser-name
+{
+	color: #000;
+	font-size: 14px;
+	font-variant: small-caps;
+	line-height: 1.3em;
+	font-weight: bold;
+}
+
+.advertiser-article-heading
+{
+	color: #333;
+	font-size: 14px;
+	line-height: 1.3em;
+}
+
+.advertiser-article-desc
+{
+	font-size: 12px;
+	color: #666;
+	line-height: 1.3em;
 }
